@@ -1,155 +1,153 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Montefiore Square</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <div id="wrapper">
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Montefiore Square</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  </head>
 
-    <!-- Header -->
-    <header id="header">
-      <div class="inner">
-        <div class="logo">
-          <span class="icon-square"></span>
-          <span class="title">Montefiore Square</span>
+  <body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+      <!-- Header -->
+      <header id="header">
+        <div class="inner">
+
+          <!-- Logo -->
+          <a href="index.html" class="logo">
+            <span class="symbol"><img src="images/logo.svg" alt="" /></span>
+            <span class="title">Montefiore Square</span>
+          </a>
+
+          <!-- Nav -->
+          <nav>
+            <ul>
+              <li><a href="#menu">Menu</a></li>
+            </ul>
+          </nav>
+
         </div>
+      </header>
 
-        <nav>
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#details">Details</a></li>
-            <li><a href="#community">Community</a></li>
-            <li><a href="#before-after">Before & After</a></li>
-            <li><a href="#visit">Visit</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+      <!-- Menu -->
+      <nav id="menu">
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="#about">About the Park</a></li>
+          <li><a href="#community">Community</a></li>
+          <li><a href="#before-after">Before & After</a></li>
+          <li><a href="#visit">Visit</a></li>
+        </ul>
+      </nav>
 
-    <!-- Main -->
-    <main id="main">
-      <div class="inner">
+      <!-- Main -->
+      <div id="main">
+        <div class="inner">
 
-        <!-- Hero -->
-        <section id="hero">
-          <div class="hero-content">
+          <header>
             <h1>Montefiore Square</h1>
-            <p>Broadway, Hamilton Pl., W. 138 St. · Manhattan</p>
-            <a
-              class="button primary"
+            <p>Broadway, Hamilton Pl., W. 138 St. — Manhattan</p>
+            <a class="button primary"
               href="https://www.google.com/maps/search/?api=1&query=Montefiore+Square+Broadway+Hamilton+Pl+W+138+St+Manhattan"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Directions via Google Maps
-            </a>
-          </div>
-        </section>
+              target="_blank">Directions via Google Maps</a>
+          </header>
 
-        <!-- Before & After Section -->
-        <section id="before-after" class="before-after">
-          <h2>Before & After</h2>
-          <p class="subtitle">See how Montefiore Square transformed through the 2021 redesign</p>
+          <!-- Tiles -->
+          <section class="tiles">
 
-          <div class="ba-container">
-            <div class="ba-item">
-              <h3>Before</h3>
-              <img src="before.jpg" alt="Montefiore Square Before Renovation">
-            </div>
+            <article id="about">
+              <span class="image">
+                <img src="images/pic01.jpg" alt="" />
+              </span>
+              <a href="#">
+                <h2>About the Park</h2>
+                <div class="content">
+                  <p>This Harlem community park features an open lawn, terraced stone seating, perennial gardens, and a paved plaza for art installations, markets, festivals, and performances.</p>
+                </div>
+              </a>
+            </article>
 
-            <div class="ba-item">
-              <h3>After</h3>
-              <img src="after.jpg" alt="Montefiore Square After Renovation">
-            </div>
-          </div>
-        </section>
+            <article id="community">
+              <span class="image">
+                <img src="images/pic02.jpg" alt="" />
+              </span>
+              <a href="#">
+                <h2>Neighborhood Association</h2>
+                <div class="content">
+                  <p>The Montefiore Park Neighborhood Association assists NYC Parks with maintenance, gardening, community involvement, and event coordination.</p>
+                </div>
+              </a>
+            </article>
 
-        <!-- Grid sections -->
-        <section id="grid" class="tiles">
-          <article id="about">
-            <span class="image"></span>
-            <div class="content">
-              <h2>About the Park</h2>
-              <p>
-                This community park in Harlem features an open lawn with terraced stone seating,
-                a garden with perennial plants, and a paved plaza that can be used for art
-                installations, markets, festivals, and performances.
-              </p>
-            </div>
-          </article>
+            <article id="redesign">
+              <span class="image">
+                <img src="images/pic03.jpg" alt="" />
+              </span>
+              <a href="#">
+                <h2>2021 Redesign</h2>
+                <div class="content">
+                  <p>The Association played a key role in advocating for the 2021 redesign, shaping a more flexible and community‑focused public space.</p>
+                </div>
+              </a>
+            </article>
 
-          <article id="details">
-            <span class="image"></span>
-            <div class="content">
-              <h2>Location & Character</h2>
-              <p>
-                Nestled at Broadway, Hamilton Place, and West 138th Street in Manhattan,
-                Montefiore Square is a sloping triangle that blends green space with flexible
-                public areas for neighborhood gatherings.
-              </p>
-            </div>
-          </article>
+            <!-- BEFORE & AFTER SECTION -->
+            <article id="before-after">
+              <span class="image">
+                <img src="images/before.jpg" alt="Before" />
+              </span>
+              <a href="#">
+                <h2>Before</h2>
+                <div class="content">
+                  <p>The park before the 2021 redesign.</p>
+                </div>
+              </a>
+            </article>
 
-          <article id="community">
-            <span class="image"></span>
-            <div class="content">
-              <h2>Neighborhood Association</h2>
-              <p>
-                The Montefiore Park Neighborhood Association assists NYC Parks in maintaining
-                this unique space, coordinating gardening efforts and encouraging community
-                involvement throughout the year.
-              </p>
-            </div>
-          </article>
+            <article>
+              <span class="image">
+                <img src="images/after.jpg" alt="After" />
+              </span>
+              <a href="#">
+                <h2>After</h2>
+                <div class="content">
+                  <p>The improved, redesigned Montefiore Square.</p>
+                </div>
+              </a>
+            </article>
 
-          <article id="redesign">
-            <span class="image"></span>
-            <div class="content">
-              <h2>2021 Park Redesign</h2>
-              <p>
-                The Association played an important role in advocating for the 2021 park redesign,
-                helping shape a park that better supports art, markets, festivals, and performances.
-              </p>
-            </div>
-          </article>
+            <article id="visit">
+              <span class="image">
+                <img src="images/pic04.jpg" alt="" />
+              </span>
+              <a href="#">
+                <h2>Plan Your Visit</h2>
+                <div class="content">
+                  <p>Relax on the lawn, explore the gardens, or enjoy community events. Use the Google Maps link above to find your route.</p>
+                </div>
+              </a>
+            </article>
 
-          <article id="events">
-            <span class="image"></span>
-            <div class="content">
-              <h2>Events & Activities</h2>
-              <p>
-                From seasonal plantings to cultural events, Montefiore Square serves as a flexible
-                backdrop for performances, markets, and neighborhood celebrations.
-              </p>
-            </div>
-          </article>
+          </section>
 
-          <article id="visit">
-            <span class="image"></span>
-            <div class="content">
-              <h2>Plan Your Visit</h2>
-              <p>
-                Explore the open lawn, relax on the terraced stone seating, or stroll through the
-                perennial gardens. Use the Google Maps link above to find the best route.
-              </p>
-            </div>
-          </article>
-        </section>
+        </div>
       </div>
-    </main>
 
-    <!-- Footer -->
-    <footer id="footer">
-      <div class="inner">
-        <p>
-          Montefiore Square · Broadway, Hamilton Pl., W. 138 St., Manhattan · Harlem, New York City
-        </p>
-      </div>
-    </footer>
+      <!-- Footer -->
+      <footer id="footer">
+        <div class="inner">
+          <p>Montefiore Square · Broadway, Hamilton Pl., W. 138 St. · Manhattan, NYC</p>
+        </div>
+      </footer>
 
-  </div>
-</body>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+
+  </body>
 </html>
