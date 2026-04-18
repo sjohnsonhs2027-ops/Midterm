@@ -1,0 +1,58 @@
+/* Before & After Images Section */
+.images-section {
+  background: linear-gradient(180deg, #ffffff 0%, #f9f9fd 100%);
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.image-card {
+  background: #fff;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+}
+
+.image-wrapper {
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.image-card:hover img {
+  transform: scale(1.05);
+}
+
+.image-text {
+  padding: 1.5rem;
+}
+
+.image-text h3 {
+  margin: 0 0 0.5rem;
+  color: var(--heading);
+}
+
+.image-text p {
+  margin: 0;
+  color: var(--text-light);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+}
